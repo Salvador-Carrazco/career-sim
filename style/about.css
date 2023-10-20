@@ -1,0 +1,60 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+body{
+    font-family: rov;
+    
+}
+header{
+    width: 100%;
+    height: 50vh;
+    background: url("../images/bird.jfif") no-repeat 50% 50%;
+     background-size: 100% 50%;
+     background-attachment: fixed;
+    background-position: top center;
+   
+
+}
+.content{
+    width: 100%;
+    margin: 10em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+nav{
+     position: relative;
+     left: 450px;
+}
+
+i{
+    color: black;
+    transition: 2s;
+
+
+}
+.name{
+    font-family: drama;
+    font-size: 40px;
+}
+
+@font-face {
+    font-family: drama;
+    src: url(../fonts/DramaGenreBrushDemoRegular-OVlX6.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: rov;
+    src: url(../fonts/RoveyfreeRegular-vm88Z.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+
