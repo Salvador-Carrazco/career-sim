@@ -33,12 +33,14 @@ header{
 }
 nav{
      position: relative;
-     left: 450px;
+     left: 0;
 }
 
 i{
     color: black;
     transition: 2s;
+    /* color: transparent; */
+
 
 
 }
@@ -63,14 +65,32 @@ footer{
 
 }
 
-.cont1{
+p{
+   font-weight: bolder;
+    font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont1{
+   font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cont2{
+    font-weight: bold;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
